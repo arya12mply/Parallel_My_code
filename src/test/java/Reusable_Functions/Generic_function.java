@@ -16,7 +16,7 @@ public class Generic_function {
         try {
             WebDriverManager.chromedriver().setup();
             driver = new ChromeDriver();
-            driver.get("https://qa.mpowered-health.com/");
+            driver.get("");
             System.out.println("Started Chromedriver...");
         }
         catch(Exception ex)
